@@ -39,7 +39,6 @@ const styles = {
     }
   `,
   cardContainer: css`
-    max-width: 50rem;
     .ant-ribbon {
       top: 5rem;
     }
@@ -53,9 +52,7 @@ const styles = {
       .ant-card-meta-title {
         color: #fe6215;
         margin: 0;
-        font-family: SaintEliaRough;
         font-size: 1.6rem;
-        text-transform: lowercase;
         padding: 0 0.25rem;
       }
     }
